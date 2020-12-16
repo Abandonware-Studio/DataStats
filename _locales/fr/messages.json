@@ -1,0 +1,51 @@
+{
+  "moreInformation": {
+    "message": "Fork de Carbonalyser",
+    "description": "Titre du lien Fork"
+  },
+  "moreInformationUrl": {
+    "message": "https://github.com/carbonalyser/Carbonalyser",
+    "description": "Url fork"
+  },
+  "legalNotice": {
+    "message": "par Abandonware-Studio",
+    "description": "Titre du lien By"
+  },
+  "legalNoticeUrl": {
+    "message": "https://github.com/Abandonware-Studio",
+    "description": "Url By"
+  },
+  "start": {
+    "message": "Démarrer l'analyse",
+    "description": "Bouton démarrer l'analyse"
+  },
+  "stop": {
+    "message": "Stopper l'analyse",
+    "description": "Bouton stopper l'analyse"
+  },
+  "reset": {
+    "message": "Ré-initialiser les données",
+    "description": "Bouton Ré-initialiser les données"
+  },
+  "analysisInProgress": {
+    "message": "Analyse en cours. Naviguez sur le web puis revenez ici pour les résultats.",
+    "description": "Message analyse en cours"
+  },
+  "topTraffic": {
+    "message": "Top du trafic relatif à votre navigation",
+    "description": "Titre de la liste Top trafic"
+  },
+  "nbSitesDisplayed": {
+    "message": "Nombre de sites à afficher",
+    "description": "Titre du champ NbSitesDisplayed"
+  },
+  "mbTotalUnit": {
+    "message": "Mo"
+  },
+  "statsOthers": {
+    "message": "Autres"
+  },
+  "resetConfirmation": {
+    "message": "Confirmer la réinitialisation des statistiques?"
+  }
+}

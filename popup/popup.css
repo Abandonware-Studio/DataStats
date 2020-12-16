@@ -1,0 +1,148 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background   : -webkit-gradient(linear, left top, left bottom, from(#EF4444), to(#F59E0B))
+}
+
+::-webkit-scrollbar-track {
+    background-color: #111827;
+}
+
+
+html,
+body {
+    width     : 500px;
+    margin    : 0;
+    padding   : 0 10px 0 0;
+    overflow-x: hidden;
+    background: #111827;
+}
+
+h1 {
+    margin: 0;
+}
+
+hr {
+    border          : 1px solid transparent;
+    background-color: #9CA3AF;
+    height          : 0;
+    padding         : 0;
+    line-height     : 0;
+}
+
+.header-links {
+    float     : right;
+    margin-top: -20px;
+}
+
+.header-links a {
+    color          :#9CA3AF;
+    text-decoration: none;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
+
+.body {
+    padding: 6px;
+    color  : white;
+}
+
+.fullwidth {
+    width  : 100%;
+    display: block;
+}
+
+#stats .leftColumn {
+    width: 50%;
+    float: left;
+}
+
+#stats .rightColumn {
+    width: 50%;
+    float: left;
+}
+
+.column50 {
+    width: 50%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+#startButton,
+#stopButton {
+    background     : linear-gradient(to right, #F59E0B 0%, #EF4444 50%, #F59E0B 100%);
+    background-size: 200% auto;
+    padding-block  : auto;
+    transition     : 0.5s;
+    border-color   : transparent;
+    border-radius  : 5px;
+}
+
+#startButton:hover,
+#stopButton:hover {
+    background-position: right center;
+}
+
+#resetButton {
+    background   : #374151;
+    padding-block: auto;
+    border-color : transparent;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#resetButton:hover {
+    border-color : #9CA3AF;
+}
+
+#statsListItems {
+    overflow : hidden;
+    font-size: 12px;
+}
+
+ul#statsListItems {
+    margin : 0;
+    padding: 10px;
+}
+
+#statsListTitle {
+    color: #999999;
+}
+
+#equivalence img {
+    width  : 15px;
+    padding: 5px;
+    float  : left;
+}
+
+#equivalence .block {
+    font-size: 16px;
+}
+
+#equivalence span.unit {
+    font-size: 10px;
+}
+
+input {
+    background   : #374151;
+    padding-block: auto;
+    border-color : transparent;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+input:hover {
+    border-color: #9CA3AF;
+}

@@ -1,0 +1,51 @@
+{
+  "moreInformation": {
+    "message": "Carbonalyser fork",
+    "description": "Fork link title"
+  },
+  "moreInformationUrl": {
+    "message": "https://github.com/carbonalyser/Carbonalyser",
+    "description": "Fork url"
+  },
+  "legalNotice": {
+    "message": "by Abandonware-Studio",
+    "description": "By link title"
+  },
+  "legalNoticeUrl": {
+    "message": "https://github.com/Abandonware-Studio",
+    "description": "By url"
+  },
+  "start": {
+    "message": "Run analysis",
+    "description": "Run analysis button"
+  },
+  "stop": {
+    "message": "Stop analysis",
+    "description": "Stop analysis button"
+  },
+  "reset": {
+    "message": "Reset data",
+    "description": "Reset data button"
+  },
+  "analysisInProgress": {
+    "message": "Analysis in progress. Start browsing the web, then come back here to get stats!",
+    "description": "Analysis in progress message"
+  },
+  "topTraffic": {
+    "message": "Top traffic related to your browsing",
+    "description": "Top traffic list title"
+  },
+  "nbSitesDisplayed": {
+    "message": "Number of websites to display",
+    "description": "NbSitesDisplayed field title"
+  },
+  "mbTotalUnit": {
+    "message": "Mb"
+  },
+  "statsOthers": {
+    "message": "Other"
+  },
+  "resetConfirmation": {
+    "message": "Confirm the statistics reset?"
+  }
+}
