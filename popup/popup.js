@@ -39,6 +39,7 @@ getStats = () => {
 
     highestStats.forEach(function (item) {
       item.percent = Math.round(100 * item.byte / total)
+      item.size = Math.round(item.byte / 1024 / 1024)
     });
   }
 
@@ -73,7 +74,7 @@ showStats = () => {
 
     labels.push(stats.highestStats[index].origin);
     series.push(stats.highestStats[index].percent);
-    const text = document.createTextNode(`${stats.highestStats[index].percent}% ${stats.highestStats[index].origin}`);
+    const text = document.createTextNode(`${stats.highestStats[index].percent}% ${stats.highestStats[index].origin} (${stats.highestStats[index].size})`);
     const li = document.createElement("LI");
     li.appendChild(text);
     statsListItemsElement.appendChild(li);
